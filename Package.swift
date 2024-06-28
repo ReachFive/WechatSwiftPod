@@ -12,7 +12,7 @@ let package = Package(
     targets: [
         .target(name: "WechatSwiftPod",
             path: "WechatSwiftPod",
-            publicHeadersPath: "WechatSwiftPod"
+            publicHeadersPath: "."
         ),
     ]
 )
