@@ -10,6 +10,9 @@ let package = Package(
         .library(name: "WechatSwiftPod", targets: ["WechatSwiftPod"]),
     ],
     targets: [
-        .target(name: "WechatSwiftPod", path: "WechatSwiftPod"),
+        .target(name: "WechatSwiftPod",
+            path: "WechatSwiftPod",
+            publicHeadersPath: "WechatSwiftPod"
+        ),
     ]
 )
